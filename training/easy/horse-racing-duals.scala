@@ -1,6 +1,6 @@
 import scala.io.StdIn.readInt
 
-object Solution extends App {
+object HorseRacingDuals extends App {
   def folder(h:Int, state:(Int, Int)): (Int, Int) = {
     val d = state._1 - h
     (h, math.min(d, state._2))

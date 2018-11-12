@@ -1,6 +1,6 @@
 import scala.io.StdIn._
 
-object Solution extends App {
+object Defiblirators extends App {
   case class Loc(lon: Double, lat: Double)
   case class Defib(name: String, loc: Loc)
   case class Result(name: String, dist: Double)

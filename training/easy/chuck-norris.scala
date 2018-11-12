@@ -1,7 +1,7 @@
 import scala.io.StdIn.readLine
 import scala.language.implicitConversions
 
-object Solution extends App {
+object ChuckNorris extends App {
   class CNStringBuilder(val sb: StringBuilder) {
     def addByte(b: Boolean): StringBuilder = {
       sb.append(if (b) { "0 " } else { "00 " })

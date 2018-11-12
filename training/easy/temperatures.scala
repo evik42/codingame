@@ -1,7 +1,7 @@
 import scala.io.StdIn.readLine
 import math._
 
-object Solution extends App {
+object Temperatures extends App {
   val n = readLine
   val res = if (n == "0") {
     n

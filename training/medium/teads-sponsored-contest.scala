@@ -2,7 +2,7 @@ import scala.collection.mutable.Map
 import scala.collection.mutable.Set
 import scala.io.StdIn._
 
-object Solution extends App {
+object TeadsSponsoredContest extends App {
   type Relations = Map[Int, Set[Int]]
 
   val relations: Relations = Map()

@@ -1,6 +1,6 @@
 import scala.io.StdIn._
 
-object Solution extends App {
+object AsciiArt extends App {
   val l = readInt
   val h = readInt
   val t = readLine

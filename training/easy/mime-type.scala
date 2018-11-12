@@ -1,7 +1,7 @@
 import scala.io.StdIn._
 import scala.collection.mutable.HashMap
 
-object Solution extends App {
+object MimeType extends App {
   val n = readInt
   val q = readInt
   val types: HashMap[String, String] = HashMap()

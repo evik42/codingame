@@ -1,6 +1,6 @@
 import scala.io.StdIn._
 
-object Player extends App {
+object MarsLanderEp1 extends App {
   (0 until readInt).foreach(_ => readLine)
 
   while(true) {

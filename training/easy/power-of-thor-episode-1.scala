@@ -1,7 +1,7 @@
 import scala.annotation.tailrec
 import scala.io.StdIn._
 
-object Player extends App {
+object PowerOfThorEp1 extends App {
   val Array(lightx, lighty, initialtx, initialty) = for(i <- readLine split " ") yield i.toInt
 
   loop(initialtx, initialty)

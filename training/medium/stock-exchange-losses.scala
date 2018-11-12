@@ -1,6 +1,6 @@
 import scala.io.StdIn._
 
-object Solution extends App {
+object StockExchangeLosses extends App {
   val n = readInt
   val loss = (readLine split " ")
     .map(_.toInt)

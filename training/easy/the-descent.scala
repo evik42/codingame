@@ -1,6 +1,6 @@
 import scala.io.StdIn.readInt
 
-object Player extends App {
+object TheDescent extends App {
   case class Highest(index: Int, height: Int)
 
   while(true) {
