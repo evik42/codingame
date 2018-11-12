@@ -28,7 +28,6 @@ object FuelEfficient extends App {
       val burn = s * 4 + 2.711 * 3 + 1.711 * 2 + 0.711
       val left = road - burn
       val t = math.ceil((s - 34.867) / 0.299)
-      val break = s * t + 0.1495 * t * t
       if (t > 0 && s * t + 0.1495 * t * t > left) {
         println("0 4")
       } else {
