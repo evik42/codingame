@@ -1,0 +1,13 @@
+
+[package]
+name = "codingame-solutions"
+version = "0.1.0"
+
+[dependencies]
+rand = "0.5.4"
+libc = "0.2.42"
+time  = "0.1.40"
+
+[[bin]]
+name = "aneo"
+path = "./training/medium/aneo.rs"
